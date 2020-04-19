@@ -34,7 +34,7 @@ componentDidMount(){
 
 const filtederMonsters = monsters.filter(monster => monster.name.toLowerCase().includes(searchField.toLowerCase()));
 
-
+console.log(filtederMonsters.length);
 
 
 
