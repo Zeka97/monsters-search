@@ -4,12 +4,16 @@
     background-color: #95dada;
     border: 1px solid gray;
     border-radius: 5px;
-    padding: 25px;
     cursor:pointer;
     backface-visibility: hidden;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
+    min-width:80%;
+    height: auto;
 }
 .card-container:hover{
  transform: scale(1.05);
+}
+.nameandemail{
+    font-size:1vw;
 }
